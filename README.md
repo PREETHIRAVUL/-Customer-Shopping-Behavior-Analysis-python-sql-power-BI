@@ -1,75 +1,90 @@
-Customer Shopping Behavior Analysis
+# Customer Shopping Behavior Analysis
 
-This project analyzes 3,900 customer purchases to uncover patterns in spending behavior, product preferences, loyalty trends, and the impact of shipping, discounts, and subscriptions. The insights help businesses make informed decisions about marketing, pricing, and customer retention strategies.
+## Business Problem
+The business lacked clear visibility into customer purchasing behavior, loyalty patterns, subscription impact, and discount effectiveness. This limited the ability to optimize retention strategies, improve marketing performance, and maximize customer lifetime value.
 
-🔧 Tools Used:
+---
 
-Python (Pandas, NumPy) – data cleaning and preparation
+## Objective
+Analyze customer demographics, purchasing patterns, product preferences, and behavioral trends to identify opportunities for improving customer retention, revenue generation, and marketing efficiency.
 
-SQL / PostgreSQL – structured querying
+---
 
-Power BI – dashboard visualization
+## Tools Used
+- Python (Pandas, NumPy)
+- SQL / PostgreSQL
+- Power BI
 
-📁 Project Workflow:
+---
 
-Data Loading & Exploration
-Initial structure check using info() and describe().
+## Dashboard Preview
+![Dashboard](screenshots/dashboard.png)
 
-Data Cleaning
+---
 
-Handled missing review ratings (37 values imputed).
+## Project Workflow
 
-Standardized categories & fields.
+### Data Cleaning
+- Handled missing review ratings
+- Standardized product categories and customer attributes
+- Validated data consistency
 
-Feature Engineering
+### Feature Engineering
+- Created customer age groups
+- Derived purchase frequency metrics
+- Built customer segmentation features
 
-Created age groups, purchase frequency, and other derived fields.
+### SQL Analysis
+- Performed structured querying in PostgreSQL
+- Analyzed customer spending and behavioral patterns
 
-Database Integration
-Loaded cleaned dataset into PostgreSQL for interactive querying.
+### Dashboard Development
+Built interactive Power BI dashboards for:
+- Revenue analysis
+- Customer segmentation
+- Product performance
+- Discount behavior
+- Subscription trends
 
-Dashboard Development
-Built a Power BI report showing KPIs, revenue, sales, segments, and customer patterns.
+---
 
-📊 Key Insights
-1️⃣ Revenue & Customer Demographics
+## Key Insights
 
-Male customers generated 68% of total revenue.
+### Revenue & Demographics
+- Male customers contributed **68% of total revenue**
+- Young Adults generated the highest revenue contribution at **$62K**
 
-Young Adults contributed the highest revenue ($62K).
+### Customer Segmentation
+- Loyal customers represented **80% of total users**
+- Returning customers showed strong repeat purchase behavior
 
-2️⃣ Customer Segmentation
+### Product Performance
+- Gloves, Sandals, and Boots received the highest customer ratings
 
-Loyal Customers dominate with 3,116 users (80% of total).
+### Shipping Behavior
+- Express shipping users spent slightly more on average than standard shipping users
 
-Returning buyers show strong potential for growth.
+### Subscription Analysis
+- Subscribers contributed **$62K revenue**
+- Non-subscribers contributed **$170K revenue**
 
-3️⃣ Product Insights
+### Discount Analysis
+- Customers using discounts maintained above-average spending levels, indicating discounts effectively attracted high-value buyers
 
-Top-rated items include Gloves, Sandals, and Boots.
+---
 
-4️⃣ Shipping & Spending
+## Business Recommendations
+- Improve subscription conversion through targeted incentives
+- Strengthen loyalty programs for repeat customers
+- Optimize discount strategies to balance growth and profitability
+- Promote high-rated products to improve customer satisfaction
+- Focus marketing campaigns on high-spending demographic segments
 
-Express shipping customers spend slightly more than standard shipping users.
+---
 
-5️⃣ Subscription Impact
-
-27% subscribers generate $62K revenue.
-
-73% non-subscribers generate $170K.
-
-6️⃣ Discount Behavior
-
-839 customers use discounts but still spend above average, showing discounts can attract high-value buyers.
-
- Business Recommendations:
-
-Increase subscription conversions with targeted benefits.
-
-Strengthen loyalty programs to retain high-value customers.
-
-Optimize discount strategies while protecting margins.
-
-Promote top-rated products to boost customer satisfaction.
-
-Target Young Adults and express-shipping users for maximum ROI.
+## Project Files
+- Python notebooks
+- SQL queries
+- Power BI dashboard
+- Dataset files
+- Dashboard screenshots
